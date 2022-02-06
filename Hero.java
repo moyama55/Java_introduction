@@ -1,7 +1,10 @@
 public class Hero{
     String name;
     int hp;
-    public void attack() {}
+    Sword sword;
+    public void attack() {
+        System.out.println(this.name + this.sword.name + "で攻撃した！");
+    }
     public void sleep() {  
         this.hp = 100;
         System.out.println(this.name + "は、眠って回復した！");
