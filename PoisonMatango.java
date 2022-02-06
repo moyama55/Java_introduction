@@ -10,7 +10,6 @@ public class PoisonMatango extends Matango {
             int dmg = h.hp / 5;
             System.out.println(dmg + "ポイントのダメージ");
             this.posionAttack -= 1;
-            aaa
         }
 
     }
